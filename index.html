@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElectroShop - Sua loja de eletrônicos</title>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <!--Fonte-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Rowdies:wght@700&display=swap" rel="stylesheet">
+    <!--Bootstrap Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"> 
+    <!--CSS-->
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top pt-4" id="cabecalho">
+        <div class="container">
+            <a class="navbar-brand m-0 section-title" href="">ELECTROSHOP</a>
+            <!--Menu hamburguer-->
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--/Menu hamburguer-->
+
+            <!--Navbar-->
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-nav">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#destaques" class="nav-link">
+                            <i class="bi bi-star me-1"></i>
+                            Destaques
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>    
+                            Sobre a loja
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>    
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!--/Navbar-->
+    </header>
+    <!--Destaques-->
+    <section class="pt-5 pb-5">
+        <div class="container back-container p-3">
+            <div class="row">
+                <div class="col-6">
+                    <h3 class="mb-3">Destaques</h3>
+                </div>
+                <div class="col-12">
+                    <div id="carousel" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid sizing-img" src="imagens/notebook1.avif">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Notebook Alienware</h4>
+                                                <p class="card-text">Notebook gamer Alienware. Intel® Core™ i9 de 13ª geração...</p>
+                                                <a href="" class="btn btn-outline-light">Mais detalhes</a>
+                                                <price class="ms-2">R$ 11.000,00</price>
+                                            </div>
+                                            <div class="card-footer text-center">
+                                                <a href="" class="btn btn-success w-100"><i class="bi bi-bag-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid sizing-img" src="imagens/notebook2.webp">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Notebook Acer Nitro</h4>
+                                                <p class="card-text">Notebook para jogos Acer Nitro 5 AMD Ryzen™ da série 6000 em modelos de 15 ou 17 polegadas...</p>
+                                                <a href="" class="btn btn-outline-light">Mais detalhes</a>
+                                                <price class="ms-2">R$ 4.000,00</price>
+                                            </div>
+                                            <div class="card-footer text-center">
+                                                <a href="" class="btn btn-success w-100"><i class="bi bi-bag-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card"> 
+                                            <img class="img-fluid sizing-img" src="imagens/notebook3.webp">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Notebook Dell G-15</h4>
+                                                <p class="card-text">Notebook Gamer processador intel core i5, de 11ª geração, placa de vídeo NVidia Geforce RTX...</p>
+                                                <a href="" class="btn btn-outline-light">Mais detalhes</a>
+                                                <price class="ms-2">R$ 6.500,00</price>
+                                            </div>
+                                            <div class="card-footer text-center">
+                                                <a href="" class="btn btn-success w-100"><i class="bi bi-bag-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid sizing-img" src="imagens/smartwatch1.webp">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Galaxy Watch 5 BT</h4>
+                                                <p class="card-text">O Galaxy Heart BT Wi-Fi é o smartwatch que oferece o mais completo conjunto de funções de monitoramento da Saúde e do Bem-Estar...</p>
+                                                <a href="" class="btn btn-outline-light">Mais detalhes</a>
+                                                <price class="ms-2">R$ 1.100,00</price>
+                                            </div>
+                                            <div class="card-footer text-center">
+                                                <a href="" class="btn btn-success w-100"><i class="bi bi-bag-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid sizing-img" src="imagens/smartwatch2.webp">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Apple Watch SE 2° geração</h4>
+                                                <p class="card-text">Três cores estilosas de caixa. Sensores poderosos com informações sobre sua saúde e boa forma. Recursos de segurança inovadores...</p>
+                                                <a href="" class="btn btn-outline-light">Mais detalhes</a>
+                                                <price class="ms-2">R$ 3.720,00</price>
+                                            </div>
+                                            <div class="card-footer text-center">
+                                                <a href="" class="btn btn-success w-100"><i class="bi bi-bag-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid sizing-img" src="imagens/smartwatch3.webp">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Smartband Xiaomi Band 7</h4>
+                                                <p class="card-text">Veja todos os dados direto na tela, sem precisar tirar o smartphone do bolso e alcance as suas metas diárias...</p>
+                                                <a href="" class="btn btn-outline-light">Mais detalhes</a>
+                                                <price class="ms-2">R$ 379,00</price>
+                                            </div>
+                                            <div class="card-footer text-center">
+                                                <a href="" class="btn btn-success w-100"><i class="bi bi-bag-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid sizing-img" src="imagens/smartphone1.jpg">
+                                            <div class="card-body">
+                                                <h4 class="card-title">moto g22</h4>
+                                                <p class="card-text">O moto g22 foi desenvolvido com materiais duráveis e possui revestimento óptico para te acompanhar no dia a dia...</p>
+                                                <a href="" class="btn btn-outline-light">Mais detalhes</a>
+                                                <price class="ms-2">R$ 879,00</price>
+                                            </div>
+                                            <div class="card-footer text-center">
+                                                <a href="" class="btn btn-success w-100"><i class="bi bi-bag-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid sizing-img" src="imagens/smartphone2.png" style="background-color: #fff;">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Motorola Edge 30</h4>
+                                                <p class="card-text">Use o motorola edge 30 ultra para tirar retratos encantadores com a câmera teleobjetiva de 12 MP, além da camera de 200 MP...</p>
+                                                <a href="" class="btn btn-outline-light">Mais detalhes</a>
+                                                <price class="ms-2">R$ 1.199,00</price>
+                                            </div>
+                                            <div class="card-footer text-center">
+                                                <a href="" class="btn btn-success w-100"><i class="bi bi-bag-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid sizing-img" src="imagens/smartphone3.jpg">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Samsung Galaxy A24</h4>
+                                                <p class="card-text">Veja cada cor e detalhe ganhando vida na tela FHD+ Super AMOLED de 6,5 polegadas. Experimente uma visão moderna de um visual clássico...</p>
+                                                <a href="" class="btn btn-outline-light">Mais detalhes</a>
+                                                <price class="ms-2">R$ 1.439,10</price>
+                                            </div>
+                                            <div class="card-footer text-center">
+                                                <a href="" class="btn btn-success w-100"><i class="bi bi-bag-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/Destaques-->
+    <!--Sobre-->
+    <section>
+        <div class="container back-container mb-3 p-3">
+            <div class="row">
+                <div class="col-md-5">
+                    <img class="img-fluid rounded w-100" src="imagens/store.jpg">
+                </div>
+                <div class="col-md-7">
+                    <h2 class="mt-3">Sobre a loja:</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, sequi. Explicabo, optio quod repudiandae nesciunt sed qui culpa atque perferendis perspiciatis est itaque nostrum quos enim et magni molestiae iste.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, sequi. Explicabo, optio quod repudiandae nesciunt sed qui culpa atque perferendis perspiciatis est itaque nostrum quos enim et magni molestiae iste.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, sequi. Explicabo, optio quod repudiandae nesciunt sed qui culpa atque perferendis perspiciatis est itaque nostrum quos enim et magni molestiae iste.
+                    </p>
+                    <h3>Localização:</h3>
+                    <address>Rua Hto, 405, São Paulo - SP</address>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/Sobre-->
+    <!--Contato-->
+    <section>
+        <div class="container back-container mb-3 p-3 mt-3">
+            <div class="row">
+                <div class="col-md-7">
+                    <h3>Acompanhe nas redes:</h3>
+                    <ul class="nav nav-pills d-block d-sm-flex">
+                        <li class="nav-item fw-bold btn">
+                            <a href="" class="nav-link m-3 fw-bold redes-icone">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item fw-bold">
+                            <a href="" class="nav-link m-3 fw-bold redes-icone">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item fw-bold">
+                            <a href="" class="nav-link m-3 fw-bold redes-icone">
+                                <i class="bi bi-twitter"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-5">
+                    <h3>Entre em contato:</h3>
+                    <form>
+                        <label class="form-label" for="nome">Nome:</label>
+                            <input class="form-control" type="text" name="nome" id="nome" placeholder="Seu nome">
+                        <label class="form-label" for="phone">WhatsApp:</label>
+                            <input class="form-control" type="tel" name="phone" id="phone" placeholder="(00) 00000-0000">
+                        <label class="form-label" for="mensagem">Mensagem:</label>
+                            <textarea class="d-block" placeholder="Sua mensagem"></textarea>
+                        <button type="submit" class="btn btn-outline-light mt-3">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/Contato-->
+    <!--footer-->
+    <footer>
+        <div class="container text-center p-3">
+            <p>
+                &copy; 2023 - ELECTROSHOP - todos os direitos reservados
+            </p>
+        </div>
+    </footer>
+    <!--/footer-->
+    <!--BootstrapJS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

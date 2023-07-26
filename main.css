@@ -1,0 +1,55 @@
+body{
+    background-color: #205de094;
+}
+h1,
+h2,
+h3,
+h4,
+label,
+.navbar-brand,
+.navbar-brand:hover,
+.card-title{
+    font-family: 'Rowdies', cursive;
+    color: rgb(192, 217, 240);
+}
+p,
+address,
+price{
+    font-family: 'Abril Fatface', cursive;
+    color: #bbd6ff;
+}
+header,
+footer{
+    background-color: #0045db;
+    border-radius: 3px;
+    color: rgb(192, 217, 240);
+}
+nav ul li a.nav-link,
+nav ul li a.nav-link i{
+    color: rgb(192, 217, 240);
+}
+nav ul li a:hover{
+    background-color: rgb(192, 217, 240);
+    color: #fff;
+}
+textarea{
+    resize: none;
+    width: 100%;
+}
+.card img{
+    border-radius: 3px;
+}
+.back-container{
+    background-color: #0045db6c;
+    border-radius: 3px;
+}
+.card{
+    background-color: #0045db73;
+}
+.redes-icone{
+    color: #bbd6ff;
+    font-size: large;
+}
+.sizing-img{
+    height: 415px;
+}
